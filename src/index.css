@@ -10,7 +10,7 @@ body {
   grid-auto-rows: minmax(100px, auto);
   align-items: center;
   grid-template-areas:
-    ". . . . ."
+    ". . wt . ."
     ". bt bt bt ."
     ". . rm . ."
     ". tb tb tb .";
@@ -18,6 +18,11 @@ body {
 
 .remaining {
   grid-area: rm;
+  margin: auto;
+}
+
+.wallet {
+  grid-area: wt;
   margin: auto;
 }
 
